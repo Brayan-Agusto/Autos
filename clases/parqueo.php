@@ -26,7 +26,7 @@ class Parqueo{
         }
     }
 
-    public function mostrarAuto($conexion)
+    public function mostrarAuto()
     {
         $sql = "SELECT * FROM auto";
         $resultado = mysqli_query($this->conexion , $sql);
